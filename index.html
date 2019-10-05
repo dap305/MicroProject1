@@ -25,7 +25,9 @@
             </font></h1>
         </div>
     </div>
-    
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div class="box-portafolio">
         <div class="title" id="port"><h1><font size="20">Mis Proyectos</font></h1></div>
         <div class="box-project">
@@ -73,7 +75,6 @@
                </h3>
                 </div>
             </div>
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
 
     <div class="box-aboutme">
@@ -122,13 +123,31 @@
             <div><p>Correo: danielpriet@hotmail.com</p></div>
         </div>
         <div class="footer-others">    
-            <div><p>Celular: <a href="https://wa.me/584242867908">+58-424-2867908</a></p></div>
+            <div><p>Celular: <a href="https://wa.me/584242867908" target="_blank">+58-424-2867908</a></p></div>
         </div>
         <div class="footer-media">    
             <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img float="right" src="https://es.logodownload.org/wp-content/uploads/2018/10/instagram-logo1.png" height="30px" width="30px"></a>
             <a href="https://twitter.com/DanielP30658102" target="_blank"><img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png" height="30px" width="30px"></a>
         </div>
     </div>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.documentElement.scrollTop = 0;
+            }
+    </script>
     
 </body>
 </html>
