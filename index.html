@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
-<body>
+<body LINK="#FFFFFF" VLINK= "#FFFFFF">
 
     <ul>
-        <li>Portafolio</li>
-        <li>Sobre mi</li>
-        <li>Habilidades y Destrezas</li>
-        <li>Contacto</li>
+        <li><a href="#port">Portafolio</a></li>
+        <li><a href="#me">Sobre mí</a></li>
+        <li><a href="#skill">Destrezas y Habilidades</a></li>
+        <li><a href="#footer">Contacto</a></li>
     </ul>
+
     <div class="hero-box">
         <img class="hero">
         <div class="title-hero">
@@ -25,7 +27,7 @@
     </div>
     
     <div class="box-portafolio">
-        <div class="title"><h1><font size="20">Mis Proyectos</font></h1></div>
+        <div class="title" id="port"><h1><font size="20">Mis Proyectos</font></h1></div>
         <div class="box-project">
             <div class="box-projects">  
                 <img src="https://store-images.s-microsoft.com/image/apps.37367.9007199266244264.05b90ea4-b048-4055-9ded-c0fa950dc9fd.10255521-4b2a-4146-a8f6-7f115bb53f96?mode=scale&q=90&h=300&w=300"
@@ -37,7 +39,7 @@
                                             el Akinator que la gente<br/>
                                             en general conoce, pero<br/>
                                             con un nivel mucho más <br/>
-                                            sencillo.<a href="https://github.com/dap305/Proyecto_Adivinador_de_Animales"> Click here</a>
+                                            sencillo.<a href="https://github.com/dap305/Proyecto_Adivinador_de_Animales" target="_blank"> Click here</a>
                 </h3>
             </div>
             <div class="box-projects">  
@@ -52,7 +54,7 @@
                                            corto entre los nodos de una<br/>
                                            matriz, usando de ejemplo <br/>
                                            comportamiento natural de <br/>
-                                           la hormiga.<a href="https://github.com/dap305/Colonia-de-Hormigas"> Click here</a>
+                                           la hormiga.<a href="https://github.com/dap305/Colonia-de-Hormigas" target="_blank"> Click here</a>
                </h3>
             </div>
                 <div class="box-projects"> 
@@ -67,14 +69,15 @@
                                            consola y carecía de interfaz, <br/>
                                            pero este fue el primero que <br/>
                                            me hizo ver que tento me gusta<br/>
-                                           la programación.<a href="https://github.com/katheinvernon/Battleship-project"> Click here</a>
+                                           la programación.<a href="https://github.com/katheinvernon/Battleship-project" target="_blank"> Click here</a>
                </h3>
                 </div>
             </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
 
     <div class="box-aboutme">
-            <div class="title"><h1><font size="20">Sobre mí</font></h1></div>
+            <div class="title" id="me"><h1><font size="20">Sobre mí</font></h1></div>
             <div class="box-info">
                     <img src="MyPic.jpg" height="350px" width="400px">
                     <h3 style="color: white"><font size="5">Mi nombre es Daniel Alejandro Prieto Medina, soy un estudiente de Ingeniría <br/>
@@ -91,7 +94,7 @@
     </div>
 
     <div class="box-skills">
-            <div class="title"><h1><font size="20">Mis Habilidades</font></h1></div>
+            <div class="title" id="skill"><h1><font size="20">Mis Habilidades</font></h1></div>
             <div>
                 <div class="box-container">
                     <div class="box-skill"><img src="https://ih1.redbubble.net/image.418233732.0994/flat,800x800,075,f.u1.jpg" width="200px" height="200px">
@@ -112,6 +115,19 @@
                 </div>
             </div>
 
+    </div>
+
+    <div class="footer" id="footer">
+        <div>
+            <div><p>Correo: danielpriet@hotmail.com</p></div>
+        </div>
+        <div>    
+            <div><p>Celular: +58-424-2867908</p></div>
+        </div>
+        <div class="footer-media">    
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img float="right" src="https://es.logodownload.org/wp-content/uploads/2018/10/instagram-logo1.png" height="30px" width="30px"></a>
+            <a href="https://twitter.com/DanielP30658102" target="_blank"></a><img src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png" height="30px" width="30px"></a>
+        </div>
     </div>
     
 </body>
