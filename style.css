@@ -115,6 +115,10 @@ li:hover {
     flex-direction: row;
 }
 
+.footer-others {
+    color: rgb(235, 214, 214);
+}
+
 #myBtn {
     display: none;
     position: fixed;
