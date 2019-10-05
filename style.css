@@ -78,3 +78,23 @@ li:hover {
     align-items: center;
     justify-content: space-around;
 }
+
+.box-skills {
+    height: 380px;
+    border: 5px solid rgb(85, 73, 73);
+}
+
+.box-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-skill {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
